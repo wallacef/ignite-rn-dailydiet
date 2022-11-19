@@ -10,11 +10,7 @@ module.exports = {
 		'plugin:react-hooks/recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking',
-		'./tsconfig.json'
-	],
-	include: [
-		'babel.config.js'
+		'plugin:@typescript-eslint/recommended-requiring-type-checking'
 	],
 	overrides: [
 	],
