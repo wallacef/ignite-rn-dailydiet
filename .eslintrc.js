@@ -39,6 +39,7 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     'react/display-name': 'off',
     'react/prop-types': 'off',
+		'@typescript-eslint/no-unsafe-assignment': 'off'
 	},
 	settings: {
     react: {

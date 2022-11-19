@@ -8,7 +8,7 @@ import {
 } from '@expo-google-fonts/nunito'
 
 import theme from './src/theme'
-import { Routes } from 'src/routes'
+import { Routes } from './src/routes'
 import { Loading } from '@components/Loading'
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar 
-        barStyle='light-content'
+        barStyle='dark-content'
         backgroundColor='transparent'
         translucent
       />
