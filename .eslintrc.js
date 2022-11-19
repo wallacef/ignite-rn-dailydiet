@@ -28,8 +28,8 @@ module.exports = {
     'indent': ['error', 2, { SwitchCase: 1 }],
     'quotes': ['error', 'single', { avoidEscape: true }],
 		'linebreak-style': [
-			'error',
-			'unix'
+			0,
+			'windows'
 		],
 		'semi': [
 			'error',
